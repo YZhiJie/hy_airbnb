@@ -12,6 +12,7 @@ const App = memo(() => {
 
   return (
     <div className='app'>
+      <h2>你是一只猪~</h2>
       <AppHeader />
       <Suspense fallback='loading'>
         <div className='page'>
